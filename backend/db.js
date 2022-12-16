@@ -24,6 +24,3 @@ module.exports = function (callback) {
         }
     })
 };
-
-//mongoimport --uri mongodb+srv://merntest:mern123@merncluster.d1d4z.mongodb.net/Customer --collection food_items --jsonArray --file "C:\Users\Mandeep Singh\Desktop\foodData1.json"
-//mongoimport --uri mongodb://merntest:mern123@merncluster-shard-00-00.d1d4z.mongodb.net:27017,merncluster-shard-00-01.d1d4z.mongodb.net:27017,merncluster-shard-00-02.d1d4z.mongodb.net:27017/Customer?ssl=true&replicaSet=atlas-eusy5p-shard-0&authSource=admin&retryWrites=true&w=majority --collection food_items --jsonArray --file "C:\Users\Mandeep Singh\Desktop\foodData1.json"
